@@ -1,0 +1,22 @@
+body {
+    background: url('../../img/bg/bg.svg') no-repeat, linear-gradient(to bottom right, #1C1E48, #02030F);
+    min-height: 100vh;
+    header {
+        .container {
+            .row {
+                div {
+                    ul {
+                        list-style: none;
+                        li {
+                            display: inline-block;
+                            background-color: chocolate;
+                        }
+                        li+li {
+                            margin-left: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

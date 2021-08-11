@@ -47,6 +47,20 @@ body {
                         padding-left: 15px;
                         color: white;
                     }
+                    span {
+                        position: absolute;
+                        top: -9px;
+                        right: -9px;
+                        z-index: 2;
+                        color: white;
+                        background-color: #ff5e6e;
+                        width: 23px;
+                        height: 23px;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
                 }
                 .x>div:last-child {
                     padding-left: 45px;

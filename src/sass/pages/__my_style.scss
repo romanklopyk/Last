@@ -68,4 +68,18 @@ body {
             }
         }
     }
+    .home {
+        &__hero {
+            .swiper-container {
+                width: 600px;
+                min-width: 100%;
+                height: auto;
+                //background-color: coral;
+                img {
+                    min-height: 100%;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
 }

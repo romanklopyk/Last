@@ -3,6 +3,7 @@ const swiper = new Swiper('.swiper-container', {
     direction: 'horizontal',
     loop: true,
     slidesPerView: 1,
+    spaceBetween: 50,
 
 
     // If we need pagination

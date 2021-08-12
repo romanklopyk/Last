@@ -1,5 +1,6 @@
 body {
     background: url('../../img/bg/bg.svg') no-repeat, linear-gradient(to bottom right, #1C1E48, #02030F) no-repeat;
+    background-size: contain, 100%;
     min-height: 100vh;
     header {
         .home__header {
@@ -70,14 +71,12 @@ body {
     }
     .home {
         &__hero {
+            overflow: hidden;
             padding: 15px 0;
             .swiper-container {
-                width: 600px;
-                min-width: 100%;
-                height: auto;
-                //background-color: coral;
+                min-height: auto;
+                color: cornsilk;
                 img {
-                    min-height: 100%;
                     max-width: 100%;
                 }
             }
@@ -182,7 +181,7 @@ body {
                     color: #000;
                 }
                 h2 {
-                    width: 438px;
+                    max-width: 438px;
                     height: 64px;
                     border-radius: 8px;
                     padding: 15px 5px;
@@ -202,6 +201,9 @@ body {
                         text-decoration: none;
                         color: #000;
                     }
+                }
+                img {
+                    max-width: 100%;
                 }
             }
         }
@@ -239,14 +241,24 @@ body {
                 text-align: left;
                 color: #fff;
             }
+            .app-image {
+                //background-color: cyan;
+                img {
+                    display: inline-block;
+                    padding: 0 15px 15px 0;
+                }
+            }
             .circle {
                 background-color: #C07CD1;
                 border-radius: 50%;
-                width: 457px;
-                height: 457px;
+                max-width: 457px;
+                max-height: 457px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                img {
+                    //max-height: 435px;
+                }
             }
         }
         &__footer {

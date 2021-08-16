@@ -242,29 +242,17 @@ body {
                 color: #fff;
             }
             .app-image {
-                //background-color: cyan;
                 img {
                     display: inline-block;
                     padding: 0 15px 15px 0;
                 }
             }
             .circle {
-                position: relative;
-                background-color: #C07CD1;
                 border-radius: 50%;
-                min-width: 457px;
-                min-height: 457px;
-                /*  display: flex;
-                justify-content: center;
-                align-items: center; */
-                img {
-                    position: absolute;
-                    top: 0%;
-                    left: 0%;
-                    background-color: coral;
-                    opacity: 0.5;
-                    width: 100%;
-                }
+                padding-top: 100%;
+                background: url(../../img/iphone_1.png) no-repeat center center, #C07CD1;
+                background-size: 50%;
+                min-width: 100%;
             }
         }
         &__footer {
@@ -294,7 +282,6 @@ body {
                 border-top: 1px solid rgba(255, 255, 255, 0.2);
                 padding-top: 15px;
             }
-            .last {}
             h3 {
                 font-family: Roboto;
                 font-size: 16px;

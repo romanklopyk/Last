@@ -24,9 +24,13 @@ body {
                     }
                     ul {
                         list-style: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        margin: 0 !important;
                         li {
-                            display: inline-block;
-                            //background-color: chocolate;
+                            //display: inline-block;
+                            // background-color: rgb(102, 8, 52);
                             a {
                                 text-decoration: none;
                                 color: white;
